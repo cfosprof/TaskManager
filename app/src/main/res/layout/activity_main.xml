@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/homepage_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homepage Heading"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/tasks_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/taskmaster_homepage" />
+
+    <Button
+        android:id="@+id/add_task_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task" />
+
+    <Button
+        android:id="@+id/all_tasks_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Tasks" />
+</LinearLayout>
